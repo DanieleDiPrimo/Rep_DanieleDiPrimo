@@ -1,0 +1,122 @@
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3); 
+  z-index: -1;
+}
+
+#titolo{
+  font-size: 80px;
+  z-index: 1;
+  color: white;
+}
+
+header{
+  background-image: url(https://images.everyeye.it/img-articoli/il-futuro-videogiochi-insostenibile-leggerezza-digitale-speciale-v9-43666-1280x16.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  position: relative; 
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  z-index: -1; 
+  margin-top: 0px;
+}
+ 
+header nav{
+  position: absolute;
+  font-size: 30px;
+  display: flex;  
+  justify-content: space-around;
+  text-align: center;
+  top: 10px;
+}
+
+#NavLinks a{
+  color: white; 
+  margin: 60px;
+  z-index: 1;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+#profilo{
+  text-align: center;
+  margin-top: -50px; 
+}
+
+#profilo img{
+  height: 100px;  
+}
+
+
+#profilo p{
+  margin-top: -10px;
+  margin-bottom: 60px; 
+}
+
+p.titoli{
+  font-size: 35px; 
+  font-family: 'Bebas Neue', cursive;
+}
+
+p.titoli em{
+  font-size: 45px; 
+  color: blue;
+  display: block; 
+  margin-bottom: 20px;  
+  font-family: 'Passions Conflict';
+}
+
+p.descrizione{
+  font-size: 18px;  
+  width: 80vw;
+  font-style: italic;
+
+}
+
+p.sunto{
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+  font-size: 20px; 
+  font-weight: 900;
+}
+
+li p, li div{
+  margin-left: 40px; 
+}
+
+.immagine{
+  margin-bottom: 60px;
+  width: 80vw;
+  height: auto;
+}
+
+#foot{
+  background-color: black;
+  height: 100px;
+  margin: 0px 0px 0px 0px;
+}
+
+#foot nav{
+  color: orange;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+li{
+  font-size: 30px;
+}
+
+body{
+  margin-bottom: 0px; 
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 0px; 
+}
+
